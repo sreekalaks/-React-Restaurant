@@ -23,4 +23,11 @@ Router - Holding Routes
 14 useParams (hooks) - Returns an object of key/value pairs of the dynamic params from the current URL that were matched by the route path.
 15 Create a component - Restop - for displaying the opening time
 16 Create a component - Restreviews - for displaying the reviews
-
+REDUX - To manage state,inorder to aviod props drilling
+17 Install Redux library - npm i redux react-redux redux-thunk
+      
+      1. Create a store file -src/store.js (To hold updated states)
+      2. Create Action - src/actions/restlistAction.js (Logic - To fetch data from an Api)
+              1.To fetch data here we use axios - npm i axios
+      3. Create constants folder - src/constants/restconstant.js
+      4. Create Reducer folder- src/reducers/restReducers.js

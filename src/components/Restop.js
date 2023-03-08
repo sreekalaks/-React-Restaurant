@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import ListGroup from 'react-bootstrap/ListGroup';
-function Restop(operate) {
+function Restop({operate}) {
     console.log(operate);//dispaly the time
 
     const [show, setShow] = useState(false);
